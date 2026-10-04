@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Bridgewell</title>
+  <!-- Two half-turns of a DNA double helix laid out as a two-span bridge:
+       the strands are the arches and the deck, the base pairs are the hangers,
+       and the strands cross over on the piers. -->
+  <rect width="64" height="64" rx="14" fill="#0035C1"/>
+  <g fill="none" stroke-linecap="round" transform="translate(32 32) scale(1.2) translate(-32 -38.5)">
+    <!-- base pairs (hangers) -->
+    <g stroke="#FECE00" stroke-width="3">
+      <path d="M16 32.6V41.4M21 30V42.4M26 32.6V41.4"/>
+      <path d="M38 32.6V41.4M43 30V42.4M48 32.6V41.4"/>
+    </g>
+    <!-- piers -->
+    <path d="M10 41V52M32 41V52M54 41V52" stroke="#FFFFFF" stroke-width="3.5"/>
+    <!-- strands: behind first, then the crossing strand in front -->
+    <path d="M10 40Q21 50 32 40" stroke="#FFFFFF" stroke-width="4.5"/>
+    <path d="M32 40Q43 14 54 40" stroke="#FFFFFF" stroke-width="4.5"/>
+    <path d="M10 40Q21 14 32 40" stroke="#FF7300" stroke-width="4.5"/>
+    <path d="M32 40Q43 50 54 40" stroke="#FF7300" stroke-width="4.5"/>
+  </g>
+</svg>
